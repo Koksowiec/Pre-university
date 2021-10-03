@@ -1,0 +1,55 @@
+html{
+	font-family:Helvetica;
+}
+
+.lewy{
+	background-color:Navy;
+	color:white;
+	width:25%;
+	height:700px;
+	float:left;
+}
+
+.gora{
+	background-color:RoyalBlue;
+	height:100px;
+	width:75%;
+	text-align:center;
+	float:left;
+}
+
+.srodek{
+	background-color:SteelBlue;
+	height:300px;
+	width:75%;
+	float:left;
+}
+
+.dol{
+	background-color:RoyalBlue;
+	height:300px;
+	width:75%;
+	text-align:center;
+	float:left;
+	margin-bottom:25px; /*aby stopka nie zosrtala "zjedzona" przez .dol*/
+}
+
+.stopka{
+	
+	background-color:SteelBlue;
+	text-align:center;
+	padding:20px;
+}
+
+h1{
+	letter-spacing:5px;
+}
+
+form{
+	margin:30px;
+	line-height:3;
+}
+
+form:hover{
+	background-color:DeepSkyBlue;
+}

@@ -1,0 +1,3 @@
+SELECT samochody.id, samochody.marka, samochody.model FROM samochody
+SELECT zamowienia.Samochody_id, zamowienia.Klient  FROM zamowienia
+SELECT * FROM samochody WHERE samochody.marka="Fiat"
