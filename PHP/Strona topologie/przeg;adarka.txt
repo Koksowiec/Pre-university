@@ -1,0 +1,3 @@
+Google Chrome
+Prawie gotowe! Uruchom ponownie Google Chrome, by zakończyć aktualizację. Okna incognito nie otworzą się ponownie.
+Wersja 87.0.4280.66 (Oficjalna wersja) (64-bitowa)

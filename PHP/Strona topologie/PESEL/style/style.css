@@ -1,0 +1,70 @@
+html, body{
+	margin: 0 auto;
+	background-color:#AA4455;
+	width:1200px;
+}
+
+.baner{
+	width:1200px;
+	height:120px;
+	background-image:url("../../grafika/baner.png");
+}
+
+.menu{
+	width:200px;
+	height:550px;
+	background-color:#00AAFF;
+	text-align:center;
+	float:left;
+}
+
+.menu a{
+	width:150px;
+	height:50px;
+	background-image:url("../../grafika/przycisk1.png");
+	background-repeat:no-repeat;
+	background-size: 150px 50px;
+	float:left;
+	margin-left:20px;
+	margin-top: 5px;
+	text-align:center;
+	padding-top:10px;
+	color:black;
+	font-size:20px;
+	font-family:"Monotype Corsiva";
+	font-style:italic;
+	text-decoration:none;
+}
+
+.menu a:hover{
+	background-image:url("../../grafika/przycisk2.png");
+}
+
+.menu a:focus{
+	background-image:url("../../grafika/przycisk2.png");
+}
+
+.menu a:active{
+	background-image:url("../../grafika/przycisk3.png");
+}
+
+.tresc{
+	width:1000px;
+	height:550px;
+	float:left;
+}
+
+.iframe{
+	width:1000px;
+	height:550px;
+	border:0px;
+}
+
+.stopka{
+	width:1200px;
+	height:60px;
+	text-align:center;
+	font-size:30px;
+	background-color:#0099AA;
+	float:left;
+}
