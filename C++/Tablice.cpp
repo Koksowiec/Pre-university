@@ -25,7 +25,7 @@ int main()
         cout << endl;
     }
 
-
+    delete [] tab;
 
     return 0;
 }
