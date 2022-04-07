@@ -159,31 +159,7 @@ namespace lab3_algorytmy_szczepanski_krzysztof
 
             for (int i = 1; i < wyrazy.Length; i++)
             {
-                /*
-                 * Tutaj chciałem pozbyć się spacji z każdego ciągu
-                 * Jednak nie udało mi się tego zrobić
-                char spacja = ' ';
-                string wyraz_aktualny = wyrazy[i];
-                string wyraz_poprzedni = wyrazy[i - 1];
-
-                for (int j = 0; j < wyraz_aktualny.Length; j++)
-                {
-                    if (wyraz_aktualny[j] == spacja)
-                    {
-                        wyraz_aktualny.Trim(spacja);
-                    }
-                }
-
-                for (int j = 0; j < wyraz_poprzedni.Length; j++)
-                {
-                    if (wyraz_poprzedni[j] == spacja)
-                    {
-                        wyraz_poprzedni.Trim(spacja);
-                    }
-                }
-                */
-
-                if (czy_anagram(wyrazy[i], wyrazy[i-1]))
+                 if (czy_anagram(wyrazy[i], wyrazy[i-1]))
                 {
                     Console.WriteLine(wyrazy[i]);
                     anagramy.Add(wyrazy[i]);
