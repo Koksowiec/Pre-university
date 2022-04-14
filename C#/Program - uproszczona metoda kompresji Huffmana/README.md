@@ -2,11 +2,11 @@
 
 This program is the simplistic version of Huffmans compression method. This is a task given by my "Algorithms and Data structures" teacher.
 
-### What it is supposed to do:
+## What it is supposed to do:
 
 This program doesn't genereate a char tree and 0/1 strings, it takes a certain number of bits as char, that comes out of the number of diffrent characters in the text. When we hae 2 chars, 1 bit is enought (the value of the first one is 0, the second one is 1), when we have 3-4 chars, we have to use 2 bits (start from 00, 01, 10, 11 so the 0,1,2,3), for 5-8 chars we have to use 3 bits and so on. The number of the bits we get from log2 out of the number of diffrent chars in the text.
 
-### What each method does from top to bottom:
+## What each method does from top to bottom:
 
 **Dec2Bin(int dec, int n)** -> converts decimal number to binary, it takes decimal number and if it's length is smaller than n then it adds "0" to it
 
