@@ -10,20 +10,30 @@ This program doesn't genereate a char tree and 0/1 strings, it takes a certain n
 
 **Dec2Bin(int dec, int n)** -> converts decimal number to binary, it takes decimal number and if it's length is smaller than n then it adds "0" to it
 
+
 **Bin2Dec(int bin)** -> converts binary number into decimal, it takes binary number
+
 
 **dopiszBrakujaceBityJako1(string ciag)** -> whenever binary value doesn't consist of 8 digits the missing ones are added as "1" for example: 1001 -> 10011111
 
+
 **indeksWCiag(char literaTekstu, string slownik)** -> checks what index in dictionary has the letter in the text given in the file, it takes the letter from text and dictionary
+
 
 **sortowanieSlownika(char[] slownik)** -> bubble sorts the letters in dictionary, it takes dictionary
 
+
 **stworzSlownik(string tekst, Dictionary<char, int> slownikZLiczbaPowtorzen)** -> creates extended version of dictionary that also counts how many times each letter occurs in the text given, it is only for the console output, it takes text and extended dictionary
+
+
 
 **kolorujTekst(ConsoleColor kolor, string? tekstPrzed, string tekst)** -> it is helping function for coloring text output for the console, it takes color of the text, the text that will be displayed before the colored text (this can be null if there is no text before) and the text that is supposed to be colored
 
+
 **zamienLiteryNaBityPotemNaChar(int r, int n, string tekst, string slownik)** -> it changes the letters into binary numbers and then those numbers into chars, it actually compresses the letters, it takes number of the extra "1" from dopiszBrakujaceBityJako1(), the number of digits per character, the text and the dictionary
 
+
 **utworzPlikJesliNieIstnieje_OtworzJesliIstniejeIWykonajDzialania_ZwrocZawartoscPliku(string tekst, string plik)** -> it creats a file if it doesn't exist, open the file if it exists and returns the content of the file, it takes the text to write to the file and the file name
+
 
 **metodaHuffmana(string tekst, string plik)** -> main method that consist of every other method and gets the compression done, it also displays all the information into the console
