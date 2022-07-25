@@ -4,4 +4,4 @@ Większość pracy posiada opis w języku polskim i angielskim, jednak kod w wi�
 
 # WELCOME TO MY CV
 Below is Krzysztof Szczepański's CV, WSB Wrocław student.
-Most of the work has the english and polish description but the code is mostly written with some polish words.
+Most of the work has the english and polish description, the code is mostly written in english but may contain polish words.
