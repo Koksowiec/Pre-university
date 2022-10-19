@@ -21,3 +21,4 @@ In the Start() method I take all the children of the Game Object and remove the 
 In the Update():
 SetTheMiddleTile() -> gets the middle tile transform, if the middle tile is null in the beggining it is set it and then newMiddle is set to the current tile, whenever player enter another tile, there is a moment when middleTile is set to an old tile and newMiddleTile is set to the current (new) tile.
   
+![1](https://user-images.githubusercontent.com/44843822/196749345-429c70ed-a103-469c-b516-edba3b5502bc.png)
