@@ -5,7 +5,7 @@
 ![4](https://user-images.githubusercontent.com/44843822/196753441-d3f2b018-3308-4248-96d7-c224f3efa654.png)
 
 ### This is my solution to the problem I stumbled upon while creating my top down game
-What I wanted to do is to create 9 tiles, with player on the middle. Whenever the player goes to the left or right, on the tile next to the middle, then this tile becomes the middle one and again there are 8 tiles around player. This is how I figured this out.
+What I wanted to do is to create 9 tiles, with player on the middle. Whenever the player goes to the left or right, on the tile next to the middle, then this tile becomes the middle one and again there are 8 tiles around player. My solution might not be the best one or the best in case of performance, but it is enough for my need. This is how I figured this out.
 
 ## Preparation
 1) I have created an empty Game Object witch the scale of 25, 25, 1 and with the script: LevelController.
@@ -41,3 +41,5 @@ MoveTilesToNewPositions() -> this method is responsible for moving the tiles to 
 SetIndexesOfTiles() -> here I assign the tiles their index, always from the middle one. So in the beggining tiles will be 0,1,2,3,4,5,6,7,8 but when player moves to left-middle tile then the indexes will be 1,2,0,4,5,3,7,8,6
 
 PrepareForSettingNewMiddleTile() -> this is the last method that happens in update. Here I check if the newMiddleTile is the same as old middleTile if so, I set the middleTile to newMiddleTile and reset newMiddleTile to null.
+
+# All the scripts and prefabs are above
