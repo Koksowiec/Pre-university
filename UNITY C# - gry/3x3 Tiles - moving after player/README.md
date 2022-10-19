@@ -1,6 +1,8 @@
 # 3x3 Tiles that move after player
 
 ![2](https://user-images.githubusercontent.com/44843822/196753270-1497d567-4167-42d1-8288-1b89e9c45813.png)
+![3](https://user-images.githubusercontent.com/44843822/196753434-53692227-04c2-4a59-847a-2c603026c2f2.png)
+![4](https://user-images.githubusercontent.com/44843822/196753441-d3f2b018-3308-4248-96d7-c224f3efa654.png)
 
 ### This is my solution to the problem I stumbled upon while creating my top down game
 What I wanted to do is to create 9 tiles, with player on the middle. Whenever the player goes to the left or right, on the tile next to the middle, then this tile becomes the middle one and again there are 8 tiles around player. This is how I figured this out.
