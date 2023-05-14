@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-element"><a href="{{ url_for('index') }}">Home</a></li>
+          <li class="navbar-element"><a href="{{ url_for('aboutme') }}">About Me</a></li>
+          <li class="navbar-element"><a href="{{ url_for('gallery') }}">Gallery</a></li>
+          <li class="navbar-element"><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1> Contact</h1>
+        <p><a href="mailto: wrx76009@student.wsb.wroclaw.pl">Send email</a></p>
+        <p>
+            <a href="{{ url_for('redirect_to_home') }}">Back to Home</a>
+        </p>
+    </div>
+</body>
+</html>

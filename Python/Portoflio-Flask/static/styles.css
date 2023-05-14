@@ -1,0 +1,52 @@
+/* NAVBAR */
+.navbar{
+display:flex;
+flex-direction:column;
+justify-content:center;
+width:60%;
+margin:auto;
+}
+
+.navbar-list{
+list-style-type: none;
+margin:auto;
+}
+
+.navbar-element{
+float:left;
+text-align:center;
+text:white;
+}
+
+.navbar-element a{
+display:block;
+width:150px;
+padding:10px;
+background:black;
+text-decoration: none;
+color:white;
+}
+
+.navbar-element a:visited{
+text-decoration: none;
+color:white;
+}
+
+.navbar-element a:hover{
+text-decoration: none;
+background:#262626;
+color:white;
+}
+
+/* CONTENT */
+.content{
+display:flex;
+flex-direction:column;
+justify-content:center;
+width:60%;
+margin:auto;
+}
+
+.content h1{
+text-align:center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-element"><a href="{{ url_for('index') }}">Home</a></li>
+          <li class="navbar-element"><a href="{{ url_for('aboutme') }}">About Me</a></li>
+          <li class="navbar-element"><a href="{{ url_for('gallery') }}">Gallery</a></li>
+          <li class="navbar-element"><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Home Page</h1>
+    </div>
+</body>
